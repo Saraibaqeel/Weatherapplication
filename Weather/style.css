@@ -1,0 +1,136 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   background-image: url(assests/BG12.jpg);
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+.background{
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  ::placeholder{
+    color:white;
+  }
+  .content {
+    
+    position: relative;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-image: url(assests/bg12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 3px solid white !important;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  input{
+    margin-top: 2%;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+ 
+    
+
+  }
+  .input-div{
+    display: flex;
+    justify-content: center;
+  }
+  .fa-magnifying-glass{
+    color: whitesmoke;
+
+  }
+.text{
+  font-size:20px !important;
+  
+}
+.text1{
+  font-size: 30px;
+  text-align: center;
+}
+.city-name{
+  font-size: 20px;
+  font-weight: 100 !important;
+}
+.count-name{
+  font-size: 15px;
+  margin-top: -18px;
+  font-weight: 100 !important;
+}
+.date{
+  font-size: 13px;
+  
+  font-weight: 100 !important;
+}
+.temp{
+  margin-top: 15%;
+}
+@media only screen and (max-width: 550px) {
+  .content {
+    width: 80%;
+  }
+}
+.fa-magnifying-glass{
+  margin-top: 3%;
+}
+.heading{
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+#icon{
+  margin-top: 2%;
+  width: 60px;
+
+
+}
+.weather-text{
+  font-weight: 100;
+  font-size:20px !important;
+  text-align: center;
+}
